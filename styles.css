@@ -1,0 +1,21 @@
+/* styles.css */
+
+.menu-btn {
+    padding: 12px 24px;
+    font-size: 18px;
+    background: linear-gradient(to right, #3b82f6, #9333ea); /* Blue to purple gradient */
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.menu-btn:hover {
+    background: linear-gradient(to right, #2563eb, #7e22ce); /* Darker gradient */
+    transform: scale(1.05);
+}
+
+canvas {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
